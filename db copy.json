@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Christ the Redeemer",
+      "email": "jameswilly@gmail.com",
+      "phonenumber": "081666666661",
+      "location": "Brazel",
+      "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/05/ChristTheRedeemer.jpg"
+    },
+    {
+      "id": "2",
+      "name": "James Williams",
+      "email": "jameswilly@gmail.com",
+      "phonenumber": "0808222222222",
+      "location": "USA",
+      "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/05/TajMahal.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Ahmed Ali",
+      "email": "ahmedali012@gmail.com",
+      "phonenumber": "0944444444",
+      "location": "Agra,India",
+      "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/05/ChristTheRedeemer.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Grace Funsho",
+      "email": "gracefunsho@gmail.com",
+      "phonenumber": "09033333333",
+      "location": "CA",
+      "imageUrl": "https://assets.traveltriangle.com/blog/wp-content/uploads/2017/05/TajMahal.jpg"
+    }
+  ]
+}
