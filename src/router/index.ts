@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AllUsers from '@/views/Users/AllUsers.vue'
-import AddUser from '@/views/Users/AddUser.vue'
-import EditUser from '@/views/Users/EditUser.vue'
+import HomeView from '../views/HomeView.vue'
+import AddAccount from '../views/AddAccout.vue'
+import BalanceSum from '../views/BalanceSum.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,19 +9,19 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: AllUsers
+      component: HomeView
     },
     {
-      path: '/adduser',
-      name: 'Add User',
-      component: AddUser
+      path: '/add',
+      name: 'Add Account',
+      component: AddAccount
     },
     {
-      path: '/edituser/:id',
-      name: 'Edit User',
-      component: EditUser
+      path: '/sum',
+      name: 'Balance Sum',
+      component: BalanceSum
     },
   ]
 })
 
-export default router;
+export default router
