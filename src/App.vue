@@ -27,10 +27,16 @@ watch(locale, (newlocale) => {
     <p>{{ t("subject") }}</p>
     <p>{{ t("message") }}</p>
     <p>{{ t("upload") }}</p>
+	<hr>
+	<hr>
+	<h2>Accounts</h2>
+    <hr>
     <RouterView />
   </div>
 </template>
 
 <style scoped>
-
+h2 {
+  padding: 5px;
+}
 </style>

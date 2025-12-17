@@ -1,8 +1,8 @@
 <template>
-  <div>Header</div>
+  <div></div>
 </template>
 
-<script lang='ts' setup>
+<script setup>
 import { reactive, ref } from 'vue'
 
 </script>
